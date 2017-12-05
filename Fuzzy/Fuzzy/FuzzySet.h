@@ -23,6 +23,6 @@ public:
 	void addTriangle(double leftInterval, double rightInterval, double midle, char*  name);
 	std::pair<double, char*> getValue(double tValue);
 	double AOM();
-	double Centroid(double tValue, double steps);
+	double Centroid( double steps);
 };
 

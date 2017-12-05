@@ -47,10 +47,10 @@ int main()
 	std::cout << "\nAOM for Motivation: " << aomResultMotivation << "\n" << std::endl;
 
 	//CENTROID
-	double centroidResultMoney = fSetMoney.Centroid(62,25);
+	double centroidResultMoney = fSetMoney.Centroid(25);
 	std::cout << "\nCENTROID for Money: " << centroidResultMoney << "\n" << std::endl;
 
-	double centroidResultMotivation = fSetMotivation.Centroid(40,10);
+	double centroidResultMotivation = fSetMotivation.Centroid(10);
 	std::cout << "\nCENTROID for Motivation: " << centroidResultMotivation << "\n" << std::endl;
 
 	if (strcmp(money, KEINGELD) == 0 && strcmp(motivation, KEINEMOTIVATION) == 0)

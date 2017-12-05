@@ -1,5 +1,13 @@
 ﻿  FuzzySet.cpp
 d:\sources\git_kigames\ki_games\fuzzy\fuzzy\fuzzyfunction.h(27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: Siehe Deklaration von "strcpy"
-d:\sources\git_kigames\ki_games\fuzzy\fuzzy\fuzzyset.cpp(125): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+d:\sources\git_kigames\ki_games\fuzzy\fuzzy\fuzzyset.cpp(105): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+  Fuzzy.cpp
+d:\sources\git_kigames\ki_games\fuzzy\fuzzy\fuzzyfunction.h(27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: Siehe Deklaration von "strcpy"
+d:\sources\git_kigames\ki_games\fuzzy\fuzzy\fuzzy.cpp(37): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: Siehe Deklaration von "strcpy"
+d:\sources\git_kigames\ki_games\fuzzy\fuzzy\fuzzy.cpp(40): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: Siehe Deklaration von "strcpy"
+  Code wird generiert...
   Fuzzy.vcxproj -> D:\Sources\Git_KIGames\KI_Games\Fuzzy\Debug\Fuzzy.exe

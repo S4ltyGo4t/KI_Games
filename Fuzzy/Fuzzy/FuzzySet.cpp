@@ -77,7 +77,7 @@ double FuzzySet::AOM()
 	return ret;
 }
 
-double FuzzySet::Centroid(double tValue, double steps)
+double FuzzySet::Centroid(double steps)
 {
 	//steps are "s" from formula
 	double ret = 0;
