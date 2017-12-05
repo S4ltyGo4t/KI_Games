@@ -6,6 +6,7 @@
 #include "TriangleFuncion.h"
 #include <utility>
 #include <vector>
+#include <Windows.h>
 
 class FuzzySet
 {
@@ -21,7 +22,7 @@ public:
 	void addTrapez(double leftInterval, double rightInterval, double leftMidle,double rightMidle, char*  name);
 	void addTriangle(double leftInterval, double rightInterval, double midle, char*  name);
 	std::pair<double, char*> getValue(double tValue);
-	std::pair<double, char*> centroid(double tValue);
-	std::pair<double, char*> AOM(double tValue);
+	double AOM();
+	double Centroid(double tValue, double steps);
 };
 

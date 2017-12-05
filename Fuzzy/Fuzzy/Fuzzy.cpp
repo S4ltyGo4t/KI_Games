@@ -25,9 +25,9 @@ int main()
 	fSetMoney.addRightShoulder(70, 100, 90, "reicher Hund");
 
 	FuzzySet fSetMotivation;
-	fSetMoney.addLeftShoulder(0, 80, 30, "koi Lust");
-	fSetMoney.addTriangle(35, 90, 60, "weiss it");
-	fSetMoney.addRightShoulder(90, 100, 95, "richtig Bock");
+	fSetMotivation.addLeftShoulder(0, 80, 30, "koi Lust");
+	fSetMotivation.addTriangle(35, 90, 60, "weiss it");
+	fSetMotivation.addRightShoulder(90, 100, 95, "richtig Bock");
 
 	FuzzySet fSetDecision;
 	fSetDecision.addLeftShoulder(0, 50, 25, "bleibmer daheim");
@@ -38,8 +38,22 @@ int main()
 
 	char* money = new char[strlen(fSetMoney.getValue(62).second) + 1];
 	strcpy(money, fSetMoney.getValue(62).second);
-		
-	if (strcmp(money, KEINGELD) == 0 && strcmp(motivation,KEINEMOTIVATION) == 0)
+
+	//AOM
+	double aomResultMoney = fSetMoney.AOM();
+	std::cout << "\nAOM for Money: " << aomResultMoney << "\n" << std::endl;
+
+	double aomResultMotivation = fSetMotivation.AOM();
+	std::cout << "\nAOM for Motivation: " << aomResultMotivation << "\n" << std::endl;
+
+	//CENTROID
+	double centroidResultMoney = fSetMoney.Centroid(62,25);
+	std::cout << "\nCENTROID for Money: " << centroidResultMoney << "\n" << std::endl;
+
+	double centroidResultMotivation = fSetMotivation.Centroid(40,10);
+	std::cout << "\nCENTROID for Motivation: " << centroidResultMotivation << "\n" << std::endl;
+
+	if (strcmp(money, KEINGELD) == 0 && strcmp(motivation, KEINEMOTIVATION) == 0)
 	{
 
 	}

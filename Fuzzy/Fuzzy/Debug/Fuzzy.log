@@ -1,1 +1,5 @@
-﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.Cpp.Platform.targets(57,5): error MSB8020: The build tools for v141 (Platform Toolset = 'v141') cannot be found. To build using the v141 build tools, please install v141 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".
+﻿  FuzzySet.cpp
+d:\sources\git_kigames\ki_games\fuzzy\fuzzy\fuzzyfunction.h(27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: Siehe Deklaration von "strcpy"
+d:\sources\git_kigames\ki_games\fuzzy\fuzzy\fuzzyset.cpp(125): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+  Fuzzy.vcxproj -> D:\Sources\Git_KIGames\KI_Games\Fuzzy\Debug\Fuzzy.exe

@@ -29,9 +29,9 @@ public:
 
 	bool	isDotInInterval(double t);
 
-	char getType()const
+	char* getType()const
 	{
-		std::cout << type << std::endl;
+		return type;
 	}
 
 	char*	getName() const
@@ -39,6 +39,15 @@ public:
 		return name;
 	}
 
+	double	getLeft() const
+	{
+		return left;
+	}
+
+	double	getRight() const
+	{
+		return right;
+	}
 	//Wird bei implementierung überschrieben
 	virtual double getValue(double t) = 0;
 };
