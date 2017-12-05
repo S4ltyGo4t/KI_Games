@@ -1,7 +1,5 @@
 #include "FuzzySet.h"
 
-
-
 FuzzySet::FuzzySet()
 {
 }
