@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FSM
+﻿namespace FSM
 {
     public enum ProcessState
     {
@@ -14,7 +8,7 @@ namespace FSM
         MovingLeft,
         MovingRight,
         Terminated
-    }
+    } 
 
     public enum Command
     {

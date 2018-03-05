@@ -36,7 +36,7 @@ namespace FSM
             if (!transitions.TryGetValue(transition, out nextState))
             {
                 //Red warning on Console keep old state
-                // also could throw new Exception("Invalid transition: " + CurrentState + " -> " + command);
+                //also could throw new Exception("Invalid transition: " + CurrentState + " -> " + command);
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Invalid Input cant find Transition!\n");
                 Console.ForegroundColor = ConsoleColor.White;

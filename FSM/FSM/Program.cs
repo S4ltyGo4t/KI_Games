@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace FSM
 {
@@ -8,10 +7,11 @@ namespace FSM
         static void Main(string[] args)
         {
             Process p = new Process();
+            //User Input
             string s = "";
             while (true)
             {
-                Console.WriteLine("Type {W,A,S,D,} to toggle the characters movement and {E} to Exit.\n");
+                Console.WriteLine("Type {W,A,S,D,} to toggle the characters movement and {Exit} to Exit.\n");
                 //Fancy state is desplayed in green
                 Console.Write("Current State: ");
                 Console.ForegroundColor = ConsoleColor.Green;
